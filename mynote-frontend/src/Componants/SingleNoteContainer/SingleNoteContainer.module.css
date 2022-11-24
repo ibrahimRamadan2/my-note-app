@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  padding: 0px 10px;
+  margin: auto;
+}
+.container i{
+  color: #E7744A;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.container h2 {
+  font-size: 35px;
+  color: #c3bbbc;
+}
+.container p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #c3bbbc;
+}
+.container textarea {
+    resize: none;
+  width: min(100%, 600px);
+  height: 400px;
+  margin-top: 25px;
+  border-radius: 5px 35px 30px 15px;
+  background-color: #2d3233;
+  padding: 15px 12px;
+  font-size: 20px;
+  color: #c3bbbc;
+}
+/* width */
+textarea::-webkit-scrollbar {
+  width: 15px;
+  display: block;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: transparent;
+  margin: 30px 0px;
+  border: none;
+}
+textarea::-webkit-scrollbar-corner {
+    display: none;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: #c3bbbc;
+    border-radius: 30px;
+}
+textarea::-webkit-resizer{
+    border: none;
+}

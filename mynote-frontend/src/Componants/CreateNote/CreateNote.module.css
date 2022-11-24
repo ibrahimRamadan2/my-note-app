@@ -1,0 +1,59 @@
+:root {
+  --font-color: #cac2c3;
+  --input-background: #2d3233;
+  --background-color: #e7744a;
+}
+.create {
+  height: 100vh;
+  background-color: #212121;
+  padding: 50px 20px;
+}
+.create .container {
+  max-width: 600px;
+  margin: auto;
+}
+.create .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create .container form {
+  position: relative;
+  font-size: 20px;
+  color: var(--font-color);
+  margin-bottom: 15px;
+}
+.create .container form label {
+  margin-bottom: 15px;
+}
+.create .container form input,
+.create .container form .text-area {
+  margin-bottom: 25px;
+}
+.create .container form input {
+  max-width: 300px;
+  height: 40px;
+  background-color: var(--input-background);
+  border: 1px solid #979797;
+  background-color: #2d3233;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  color: var(--font-color);
+  padding: 15px;
+}
+.create .container form button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -47px;
+  right: 10px;
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+.create .container form .disabled {
+  cursor: not-allowed;
+}
