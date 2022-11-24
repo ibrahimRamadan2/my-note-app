@@ -1,6 +1,6 @@
 # my-note-app
 ### note app with react Js as frontend and django as backend to practice some topic like :
-React ( hooks , form validation ,... )
+React ( hooks , form validation ,... ) <br />
 Django (rest_framework, serializers ,..)
 
 ## show Notes List and Delete any Note item also navigate to update page by clicking on it . 
