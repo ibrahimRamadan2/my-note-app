@@ -1,0 +1,17 @@
+.text-area-container textarea {
+    resize: none;
+   width: min(100%, 600px);
+  min-height: 200px;
+  border: 1px solid #979797;
+  border-radius: 5px 35px 30px 15px;
+  background-color: #2d3233;
+  padding: 15px 12px;
+  font-size: 20px;
+  color: #c3bbbc;
+  outline: none;
+}
+.text-area-container textarea::-webkit-scrollbar {
+  display: none;
+}
+ 
+ 

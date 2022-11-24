@@ -1,0 +1,85 @@
+.notes-list{
+    padding: 0px 15px;
+}
+.container{
+    position: relative;
+    background-color: #2A2F30;
+    max-width: 600px;
+    margin: auto;
+}
+.container .note-list-header{
+    color: #E7744A;
+    display: flex  ;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .note-list-header div{
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.container .note-list-header .notes-count{
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.container .note-list-header i{
+    margin: 5px 10px 0px 15px ;
+}
+
+.container h1{
+    background-color: #282A2C;
+    padding:12px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
+.container .list{
+    padding-top: 15px;
+}
+.container .create-btn:hover{
+    box-shadow: 1px 1px 11px #DF9A7E;
+}
+.container .create-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 45px;
+    width: 45px;
+    color: #212121;
+    background-color: #E7744A;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1d2123;
+    transition: 0.35s;
+}
+.main-card:hover{
+    background-color: #1d2123;
+}
+.main-card div{
+    width: calc(100% - 45px);
+}
+.main-card .delete-btn {
+    color: #212121;
+    background-color: #E7744A;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.delete-btn:hover {
+    box-shadow: 1px 1px 11px #DF9A7E;
+}
